@@ -1,7 +1,8 @@
 public class Main {
     public static void main(String[] args)
     {
-
+        Countdown count = new Countdown();
+        System.out.println(Countdown.countdown(10));
     }
 
     /*public  static int giveFactorial(int num)

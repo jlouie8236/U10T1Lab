@@ -18,7 +18,7 @@ public class Countdown
         }
         else
         {
-            return countdown(number - 1) + number;
+            return number + " " + countdown(number - 1);
         }
     }
 }
